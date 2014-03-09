@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond $1 !(public) [NC]
+    RewriteBase /~gavin/macullochinteriors.co.uk
+
+    RewriteRule ^(.*)$ public/$1 [L]
+    RewriteRule ^(css|js|img|fonts)/(.*)?$ public/$1/$2 [L,QSA,R=301]
+</IfModule>

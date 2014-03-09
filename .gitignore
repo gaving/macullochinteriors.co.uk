@@ -1,0 +1,7 @@
+.DS_Store
+tags
+node_modules/
+.ctrlp
+.htaccess
+vendor
+bower_components

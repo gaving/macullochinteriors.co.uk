@@ -1,0 +1,21 @@
+{
+  "name": "macullochinteriors.co.uk",
+  "private": true,
+  "version": "1.0.0",
+  "description": "front-end for macullochinteriors.co.uk",
+  "dependencies": {
+    "grunt": "0.4.1",
+    "bower": "~1.2.8"
+  },
+  "repository": "",
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "gulp-util": "~2.2.14",
+    "gulp": "~3.5.2",
+    "gulp-coffee": "~1.4.1",
+    "gulp-concat": "~2.1.7",
+    "gulp-uglify": "~0.2.1",
+    "gulp-imagemin": "~0.1.5"
+  }
+}
