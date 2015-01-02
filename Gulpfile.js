@@ -21,7 +21,7 @@ gulp.task('minify', function() {
   return gulp.src(paths.js)
     .pipe(uglify())
     .pipe(concat('all.min.js'))
-    .pipe(gulp.dest('public/js'));
+    .pipe(gulp.dest('public/lib'));
 });
 
 // Copy all static images
